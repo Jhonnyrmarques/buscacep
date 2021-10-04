@@ -13,8 +13,9 @@ function Adress(){
 
   };
 
+  // Limpa os campos de Endereço
   this.clear = () => {
-    // Limpa os campos de endereço
+    
     this.cep = document.querySelector("#cep");
     this.cep.value = '';
 
@@ -34,10 +35,10 @@ function Adress(){
     this.ibge.value = '';
   }
 
+  // Verifica se o cep digitado é um cep valido ou se não está vazio
   this.validation = () => {
     this.cep = document.querySelector("#cep");
     
-
     if(this.cep.value === ''){
       toastr.error('Preencha o campo CEP para realizar a busca');
     }
@@ -46,6 +47,7 @@ function Adress(){
   }
 
 
+  // Função para verificar se o cep é valido
   this.isCEP = (cep) => {
 
     
