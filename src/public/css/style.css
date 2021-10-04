@@ -3,10 +3,10 @@
 body{
   font-family: 'Roboto', sans-serif;
   background-image: url('/PHPtest/src/public/img/fundo.png');
-  position: center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 680px;
-  opacity: 0.4;
+  
   
 }
 
