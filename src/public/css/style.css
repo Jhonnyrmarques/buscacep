@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/PHPtest/src/public/img/fundo.png');
+  position: center;
+  background-repeat: no-repeat;
+  height: 680px;
+  opacity: 0.4;
+  
+}
+
+
+
