@@ -2,13 +2,35 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-image: url('/PHPtest/src/public/img/fundo.png');
+  background-image: url('/PHPtest/src/public/img/fundo.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  height: 680px;
-  
+  background-size: 780px;
   
 }
 
+h1, p{
+  font-weight: bold;
+  color: #1E2267;
+}
+
+
+
+label{
+  font-size: 16px;
+  font-weight: bold;
+  color: #8358FE;
+}
+
+.container{
+  opacity: 0.8;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 
 
