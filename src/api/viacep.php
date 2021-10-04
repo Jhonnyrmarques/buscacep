@@ -12,8 +12,6 @@
       $address = emptyAddress();
     }
 
-    
-
     return $address;
     
   }
@@ -27,6 +25,7 @@
   
   }
 
+  // Se não tiver nenhum cep, retorna um objeto vazio
   function emptyAddress(){
       return (object) [
           'cep' => '',
