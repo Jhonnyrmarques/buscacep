@@ -59,3 +59,8 @@ $address = get_address();
 
 </div>
 
+<?php 
+
+include_once "includes/footer.php";
+
+?>
